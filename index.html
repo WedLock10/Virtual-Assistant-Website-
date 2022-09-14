@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name=
+  "viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv=
+  "X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet"
+  type="text/css" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Virtual Assistant Website</title>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-angle-up"> </i>
+  </button> <!-- scroll to top button -->
+  <!-- header -->
+  <header>
+    <!-- navigation -->
+    <nav class="navbar">
+      <div class="navlinks">
+        <a href="">
+           <img src="logo.png" class="logo">
+        </a>
+        <div class="links">
+          <a href="javascript:void()" id="navbar-close-btn" onclick="hideMenuItems()">
+            <i class="fa-solid fa-times"> </i>
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <!-- sign up/in section -->
+          <div class="cta-buttons">
+            <button class="register">Register</button>
+            <button class="logIn">Log in</button>
+          </div>
+        </div>
+      </div>
+        <a href="javascript:void()" id="navbar-menu-btn" onclick="showMenuItems()">
+          <i class="fa-solid fa-bars"> </i>
+        </a>
+    </nav>
+    <!-- header-content -->
+    <div class="header-content">
+      <div class="left">
+        <img src="left.png">
+      </div>
+      <div class="header-text" id="index-text">
+        <h1>VA experts</h1>
+        <div class="sub-text" >
+          <h3>Hire an amazing virtual assistant for you and your business.</h3>
+          <p>Lorem ipsum dolor sot amet, don't know what if you don't want to review the company provided.</p>
+          <a href="#tohire" class="exhire">Hire Now</a>
+        </div>
+      </div>
+      <div class="left" id="right">
+        <img src="right.png" id="index-image">
+      </div>
+    </div>    
+  </header>
+  <!-- services -->
+  <section class="services">
+    <div class="title" data-aos="flip-up">
+      <h2>What we can do for you</h2>
+    </div>
+    <div class="services-text">
+      <div class="services-item" data-aos="fade-up">
+        <i class="fa-solid fa-star"></i>
+        <h4>Executive Virtual Assistant</h4>
+        <p>
+        Administrative tasks to run your business efficiently including documentation, research, email and calendar management, MS Office tasks, voice calls, and personal online errands.
+        </p>
+      </div>
+      <!-- Service s item -->
+      <div class="services-item" data-aos="fade-up">
+        <i class="fa-solid fa-headphones"></i>
+        <h4>Customer Service</h4>
+        <p>
+        Excellent customer service to increase customer loyalty including account management, chat support, data entry, order processing, email follow-up, supplier liaison, and inventory management.
+        </p>
+      </div>
+      <!-- Service s item -->
+      <div class="services-item" data-aos="fade-up">
+        <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+        <h4>Copyrighting</h4>
+        <p>
+        Engage your audience with compelling content through our blog writing, editing, content research, email campaigns, and web content writing services
+        </p>
+      </div>
+      <!-- Service s item -->
+      <div class="services-item" data-aos="fade-up">
+        <i class="fa-sharp fa-solid fa-gears"></i>
+        <h4>Project Management</h4>
+        <p>
+        Project completion from start to finish including developing plans and timelines, researching vendors, coordinating with freelancers, scheduling tasks, managing timelines, and planning events.
+        </p>
+      </div>
+      <!-- Service s item -->
+      <div class="services-item" data-aos="fade-up">
+        <i class="fa-solid fa-heart"></i>
+        <h4>Social Media Assistant</h4>
+        <p>
+        Widen your reach through our social media services including content creation and scheduling, engaging with influencers, image creation, research, and ad campaigns.
+        </p>
+      </div>
+      <!-- Service s item -->
+    </div>
+  </section>
+  <!-- hire & virtual assistant --->
+  <section class="hire">
+    <div class="title" data-aos="flip-up">
+      <h2>Our Virtual Assistant</h2>
+    </div>
+    <div class="assistant-gallery">
+      <div class="assistant" data-aos="zoom-in">
+        <img src="1.jpg">
+        <h4>Jane Doe</h4>
+        <p>Excellent virtual assistant</p>
+      </div>
+      <!-- column -->
+      <div class="assistant" data-aos="zoom-in">
+        <img src="2.jpg">
+        <h4>Shane Dawson</h4>
+        <p>Experience Project Manager</p>
+      </div>
+      <!-- column -->
+      <div class="assistant" data-aos="zoom-in">
+        <img src="3.jpg">
+        <h4>Maria dela Cruz</h4>
+        <p>Modern Scheduler</p>
+      </div>
+      <!-- column -->
+      <div class="assistant" data-aos="zoom-in">
+        <img src="4.jpg">
+        <h4>Andia Angeles</h4>
+        <p>L2 Customer Service</p>
+      </div>
+      <!-- column -->
+      <div class="assistant" data-aos="zoom-in">
+        <img src="5.jpg">
+        <h4>Mikey Williams</h4>
+        <p>Excellent <strong>Virtual Assistant</strong></p>
+      </div>
+      <!-- column -->
+      <div class="assistant" data-aos="zoom-in">
+        <img src="6.jpg">
+        <h4>Ms. Patty</h4>
+        <p>Social Media Expert</p>
+      </div>
+      <!-- column -->
+    </div>
+  </section>
+  <!-- about -->
+  <section class="about">
+    <div class="title" data-aos="flip-up">
+      <h2>Our Edge</h2>
+    </div>
+    <div class="about-container">
+      <div class="about-text" data-aos="fade-in">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h4>Professionals & Degree Holder</h4>
+      </div>
+      <!-- item -->
+      <div class="about-text" data-aos="fade-in">
+        <i class="fa-solid fa-person-arrow-up-from-line"></i>
+        <h4>Highly motivated individuals</h4>
+      </div>
+      <!-- item -->
+      <div class="about-text" data-aos="fade-in">
+        <i class="fa-solid fa-headset"></i>
+        <h4>English-Proficient Virtual Assistants</h4>
+      </div>
+      <!-- item -->
+    </div>
+  </section>
+  
+  <!-- testimonials -->
+  <section class="testimonials">
+    <div class="title" data-aos="flip-up">
+      <h2>What Our Clients Say</h2>
+    </div>
+    <div class="testimonial-item" data-aos="fade-in">
+      <p>
+      "My Experts VA has allowed me to cross off items that were sitting on my to-do list for months! I am very satisfied with the overall experience and I look forward to finding other projects for her to work on!"
+      </p>
+      <h5>Dane Leo</h5>
+      <p>LCC Advisor</p>
+      <p>www.lccadvisor.com</p>
+    </div>
+    <div class="testimonial-item" data-aos="fade-in">
+      <p>
+      "The first time in the history their service is faster than my bullets. I was amazed how this professional handle everything. I'm glad I hired Experts VA to assist me."
+      </p>
+      <h5>James Bond</h5>
+      <p>Action Star</p>
+      <p>www.007.com</p>
+    </div>
+    <div class="testimonial-item" data-aos="fade-in">
+      <p>
+      "My VA has allowed me to cross over everytime my schedule is full! I am very satisfied with the overall experience and I look forward to finding other projects with Experts VA to work on!"
+      </p>
+      <h5>Stephen Curry</h5>
+      <p>NBA Player</p>
+      <p>www.curryfor3.com</p>
+    </div>
+  </section>
+  
+  <!-- Company -->
+  <section class="company">
+    <div class="experts" data-aos="fade-up">
+      <img src="logo.png" class="logo">
+    </div>
+    <div class="application" data-aos="fade-up">
+      <p>Want to be part of our <strong> Virtual Assistant Team</strong>?</p>
+      <a href=""> Apply Here</a>
+    </div>
+    <div class="office" data-aos="fade-up">
+      <h5>Quezon City</h5>
+      <p>Don Custodio 84B, </p>
+      <p>St.Martin Cubao QC</p>
+      <br>
+      <p>Phone: 09123455678</p>
+    </div>
+    <div class="office" data-aos="fade-up">
+      <h5>Angeles City</h5>
+      <p>Don Custodio 84B, </p>
+      <p>St.Martin Pampanga</p>
+      <br>
+      <p>Phone: 09123455678</p>
+    </div>
+  </section>
+  
+  <!-- Need for VA -->
+  <section class="needva" id="tohire">
+    <div class="title" data-aos="flip-up" >
+      <h2>In need of VA</h2>
+    </div>
+    <div class="form-container" data-aos="fade-out">
+      <p>Fill up this form</p>
+      <form action="https://formspree.io/f/xnqrpaeq" method="POST">
+        <input type="text" name="Fullname" placeholder="Full Name">
+        <br>
+        <input type="number" name="Contact" placeholder="Contact">
+        <br>
+        <input type="email" name="Email" placeholder="Email Address">
+        <br>
+        <input type="text" name="Country" placeholder="Country">
+        <br>
+        <button class="submit">Send Inquiry</button>
+      </form>
+      <!-- form -->
+    </div>
+  </section>
+  
+  <!-- footer -->
+  <footer>
+    <div class="navigation-footer" data-aos="fade-up">
+      <a href="javascript:void()" id="footer-menu-btn" onclick="showMenu()">
+        <i class="fa-solid fa-bars"> </i>
+      </a>
+      <div class="footer-menu">
+        <ul id="hide">
+           <a href="index.html">Home</a>
+           <a href="pricing.html">Pricing</a>
+           <a href="about.html">About Us</a>
+           <a href="blog.html">Blog</a>
+           <a href="contact.html">Contact Us</a>
+        </ul>
+      </div>
+    </div>
+    <!-- social-links -->
+    <div class="social-links" data-aos="fade-up">
+      <a href="">
+        <i class="fa-brands fa-facebook-f"> </i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-facebook-messenger"> </i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-instagram"> </i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-youtube"> </i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-tiktok"> </i>
+      </a>
+    </div>
+    
+    <p>&copy; Copyright 2012 - 2022. Your Experts Virtual Assistant. All Rights Reserved</p>
+  </footer>
+<script src = "main.js"> </script>
+<script src = "https://unpkg.com/aos@next/dist/aos.js"> </script>
+<script>
+// animation
+AOS.init({
+   duration: 1000,
+   once: true,
+ });
+</script>
+</body>
+</html>
